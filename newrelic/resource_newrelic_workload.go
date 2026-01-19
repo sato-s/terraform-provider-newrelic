@@ -183,7 +183,7 @@ func resourceNewRelicWorkload() *schema.Resource {
 			"workload_id": {
 				Type:        schema.TypeInt,
 				Computed:    true,
-				Description: "The unique entity identifier of the workload.",
+				Description: "The unique entity identifier of the workload. hoge",
 			},
 			"guid": {
 				Type:        schema.TypeString,
